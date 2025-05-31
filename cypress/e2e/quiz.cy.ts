@@ -105,9 +105,5 @@ describe("Tech Quiz E2E Tests", () => {
 
     // Wait for failed request
     cy.wait("@getQuestionsError");
-
-    // The application should handle the error
-    // Based on the code, it logs to console but stays in loading state
-    // You might want to add error handling UI in the actual component
   });
 });
